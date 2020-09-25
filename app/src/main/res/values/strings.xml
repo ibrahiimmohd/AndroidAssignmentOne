@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Assignment One</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="aiOnCreate">onCreate</string>
+    <string name="aiOnStart">onStart</string>
+    <string name="aiOnStop">onStop</string>
+    <string name="aiOnDestroy">onDestroy</string>
+
+    <string name="viOnCreate">onCreate</string>
+    <string name="viOnStart">onStart</string>
+    <string name="viOnStop">onStop</string>
+    <string name="viOnDestroy">onDestroy</string>
+
+    <string name="mainActivityOnStart">On Start</string>
+    <string name="mainActivityOnCreate">On Create</string>
+
+    <string name="secFragText">onStart\nonCreate</string>
+
+    <string name="aiActivityTitle">AIActivity</string>
+    <string name="viActivityTitle">VIActivity</string>
+
+</resources>
