@@ -46,10 +46,7 @@ public class FirstFragment extends ListFragment {
     Intent intent;
 
     @Override
-
     public void onListItemClick(ListView l, View v, int position, long id) {
-        //SecondFragment fragment = (SecondFragment) getFragmentManager().findFragmentById(R.id.fragment2);
-        //fragment.display(customTasks[position]);
         getListView().setSelector(android.R.color.holo_blue_dark);
 
         switch (customActivities[position]) {

@@ -30,8 +30,4 @@ public class SecondFragment extends Fragment {
 
     }
 
-    public void display(String customActivities){
-        tvActivity.setText(customActivities);
-    }
-
 }
