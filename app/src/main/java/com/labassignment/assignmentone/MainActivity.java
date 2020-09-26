@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         //Call .show function
         toast.show();
     }
-
+    //onStart method
     public void onStart()
     {
         super.onStart();

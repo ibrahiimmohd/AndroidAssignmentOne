@@ -2,15 +2,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5ba4e5"
-    android:gravity="center">
+    android:background="#999DA0"
+    android:gravity="center"
+    android:orientation="vertical">
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_gravity="center"
-        android:textColor="#ffffff"
-        android:textSize="40px"
+        android:textColor="#ff6fff"
+        android:textSize="50px"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 

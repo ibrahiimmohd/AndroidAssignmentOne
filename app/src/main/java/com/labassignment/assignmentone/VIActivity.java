@@ -22,21 +22,21 @@ public class VIActivity extends AppCompatActivity {
         tvVI.setText(R.string.viOnCreate);
     }
 
-    //onStop constructor
+    //onStop method
     public void onStop()
     {
         super.onStop();
         //Setting text to txVI variable
         tvVI.setText(R.string.viOnStop);
     }
-    //onDestroy constructor
+    //onDestroy method
     public void onDestroy()
     {
         super.onDestroy();
         //Setting text to txVI variable
         tvVI.setText(R.string.viOnDestroy);
     }
-    //onStart constructor
+    //onStart method
     public void onStart()
     {
         super.onStart();

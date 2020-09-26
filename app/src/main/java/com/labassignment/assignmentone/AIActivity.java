@@ -25,21 +25,21 @@ public class AIActivity extends AppCompatActivity {
         tvAI.setText(R.string.aiOnCreate);
     }
 
-    //onStart constructor
+    //onStart method
     public void onStart()
     {
         super.onStart();
         //Setting text to txAI variable
         tvAI.setText(R.string.aiOnStart);
     }
-    //onStop constructor
+    //onStop method
     public void onStop()
     {
         super.onStop();
         //Setting text to txAI variable
         tvAI.setText(R.string.aiOnStop);
     }
-    //onDestroy constructor
+    //onDestroy method
     public void onDestroy()
     {
         super.onDestroy();
