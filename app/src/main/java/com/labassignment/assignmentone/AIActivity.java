@@ -9,33 +9,41 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class AIActivity extends AppCompatActivity {
+    //Declare TextView variable
     TextView tvAI;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a_i);
-        this.setTitle(getString(R.string.aiActivityTitle));
 
+        //Setting the title for the AIActivity
+        this.setTitle(getString(R.string.aiActivityTitle));
+        //Initialize txAI variable
         tvAI = (TextView) findViewById(R.id.textViewAI);
+        //Setting text to txAI variable
         tvAI.setText(R.string.aiOnCreate);
     }
 
+    //onStart constructor
     public void onStart()
     {
         super.onStart();
+        //Setting text to txAI variable
         tvAI.setText(R.string.aiOnStart);
     }
-
+    //onStop constructor
     public void onStop()
     {
         super.onStop();
+        //Setting text to txAI variable
         tvAI.setText(R.string.aiOnStop);
     }
-
+    //onDestroy constructor
     public void onDestroy()
     {
         super.onDestroy();
+        //Setting text to txAI variable
         tvAI.setText(R.string.aiOnDestroy);
     }
 

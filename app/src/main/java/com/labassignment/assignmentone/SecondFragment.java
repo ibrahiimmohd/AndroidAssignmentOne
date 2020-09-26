@@ -12,6 +12,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class SecondFragment extends Fragment {
+    //Declare TextView variable
     TextView tvActivity;
 
     @Override
@@ -21,13 +22,14 @@ public class SecondFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater,ViewGroup container, Bundle savedInstanceState) {
-        //
+        //Declare and initialize fragment second view
         View view = inflater.inflate(R.layout.fragment_second, container, false);
-        tvActivity= (TextView) view.findViewById(R.id.textView);
-
+        //Initialize tvActivity variable
+        tvActivity = (TextView) view.findViewById(R.id.textView);
+        //Setting text to tvActivity variable
         tvActivity.setText(R.string.secFragText);
-        return view;
 
+        return view;
     }
 
 }

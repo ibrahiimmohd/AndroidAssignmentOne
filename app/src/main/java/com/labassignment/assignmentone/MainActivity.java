@@ -14,11 +14,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Declare and initialize content variable
         Context context = getApplicationContext();
+        //Set text for context variable
         CharSequence text = getString(R.string.mainActivityOnCreate);
+        //Indicate the duration for the display
         int duration = Toast.LENGTH_SHORT;
-
+        //Declare and initialize toast variable which takes context, text, and duration arguments
         Toast toast = Toast.makeText(context, text, duration);
+        //Call .show function
         toast.show();
     }
 
@@ -26,11 +30,15 @@ public class MainActivity extends AppCompatActivity {
     {
         super.onStart();
 
+        //Declare and initialize content variable
         Context context = getApplicationContext();
+        //Set text for context variable
         CharSequence text = getString(R.string.mainActivityOnStart);
+        //Indicate the duration for the display
         int duration = Toast.LENGTH_SHORT;
-
+        //Declare and initialize toast variable which takes context, text, and duration arguments
         Toast toast = Toast.makeText(context, text, duration);
+        //Call .show function
         toast.show();
     }
 }
