@@ -1,23 +1,24 @@
 <resources>
-    <string name="app_name">Assignment One</string>
+    <string name="app_name">IbrahimAli_COMP304Lab1</string>
     <!-- TODO: Remove or change this placeholder text -->
 
     <string name="aiOnCreate">onCreate</string>
-    <string name="aiOnStart">onStart</string>
-    <string name="aiOnStop">onStop</string>
+    <string name="aiOnStart">onStart executed</string>
+    <string name="aiOnStop">onStop executed</string>
     <string name="aiOnDestroy">onDestroy</string>
 
-    <string name="viOnCreate">onCreate</string>
-    <string name="viOnStart">onStart</string>
-    <string name="viOnStop">onStop</string>
-    <string name="viOnDestroy">onDestroy</string>
+    <string name="viOnCreate">onCreate executed</string>
+    <string name="viOnStart">onStart executed</string>
+    <string name="viOnStop">onStop executed</string>
+    <string name="viOnDestroy">onDestroy executed</string>
 
-    <string name="mainActivityOnStart">On Start</string>
-    <string name="mainActivityOnCreate">On Create</string>
+    <string name="mainActivityOnStart">onStart executed</string>
+    <string name="mainActivityOnCreate">onCreate executed</string>
 
-    <string name="secFragText">onStart\nonCreate</string>
+    <string name="secFragText">onStart executed\nonCreate executed</string>
 
     <string name="aiActivityTitle">AIActivity</string>
     <string name="viActivityTitle">VIActivity</string>
+    <string name="fragment1_title">Life Cycle Methods Demonstration</string>
 
 </resources>
