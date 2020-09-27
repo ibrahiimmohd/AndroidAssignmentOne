@@ -1,24 +1,31 @@
 <resources>
     <string name="app_name">IbrahimAli_COMP304Lab1</string>
-    <!-- TODO: Remove or change this placeholder text -->
 
-    <string name="aiOnCreate">onCreate</string>
-    <string name="aiOnStart">onStart executed</string>
+    <!-- Main Activity-->
+    <string name="mainActivityOnCreate">onCreate executed</string>
+    <string name="mainActivityOnStart">onStart executed</string>
+
+    <!-- FirstFragment-->
+    <string name="fragment1_title">Life Cycle Methods Demonstration</string>
+    <string name="fragment1_onCreate">fragment1 onCreate executed</string>
+    <string name="fragment1_onStart">fragment1 onStart executed</string>
+
+    <!-- SecondFragment-->
+    <string name="fragment2_onCreate">fragment2 onCreate executed</string>
+    <string name="fragment2_onStart">fragment2 onStart executed</string>
+
+    <!-- VI Activity-->
+    <string name="aiActivityTitle">AIActivity</string>
+    <string name="aiOnCreate">onCreate executed</string>
     <string name="aiOnStop">onStop executed</string>
-    <string name="aiOnDestroy">onDestroy</string>
+    <string name="aiOnDestroy">onDestroy executed</string>
+    <string name="aiOnStart">onStart executed</string>
 
+    <!-- VI Activity-->
+    <string name="viActivityTitle">VIActivity</string>
     <string name="viOnCreate">onCreate executed</string>
-    <string name="viOnStart">onStart executed</string>
     <string name="viOnStop">onStop executed</string>
     <string name="viOnDestroy">onDestroy executed</string>
-
-    <string name="mainActivityOnStart">onStart executed</string>
-    <string name="mainActivityOnCreate">onCreate executed</string>
-
-    <string name="secFragText">onStart executed\nonCreate executed</string>
-
-    <string name="aiActivityTitle">AIActivity</string>
-    <string name="viActivityTitle">VIActivity</string>
-    <string name="fragment1_title">Life Cycle Methods Demonstration</string>
+    <string name="viOnStart">onStart executed</string>
 
 </resources>

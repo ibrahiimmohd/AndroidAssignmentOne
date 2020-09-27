@@ -21,7 +21,8 @@ public class SecondFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater,ViewGroup container, Bundle savedInstanceState) {
         //Declare and initialize fragment second view
         View view = inflater.inflate(R.layout.fragment_second, container, false);
-        //static toast object calls makeText method which takes context(getActivity), text, and duration arguments
+
+        //static toast class calls makeText method which takes context(getActivity), text, and duration arguments
         Toast.makeText(getActivity(), R.string.fragment2_onCreate, Toast.LENGTH_SHORT).show();
 
         return view;
@@ -31,7 +32,8 @@ public class SecondFragment extends Fragment {
     public void onStart()
     {
         super.onStart();
-        //static toast object calls makeText method which takes context(getActivity), text, and duration arguments
+
+        //static toast class calls makeText method which takes context(getActivity), text, and duration arguments
         Toast.makeText(getActivity(), R.string.fragment2_onStart, Toast.LENGTH_SHORT).show();
     }
 }

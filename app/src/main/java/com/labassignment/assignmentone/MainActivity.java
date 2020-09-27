@@ -12,8 +12,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    TextView tvOnCreate;
-    TextView tvOnStart;
+    //Declare variables
+    TextView tvMainActivity;
     ArrayList<String> lifeCycleActivities = new ArrayList<>();
 
     @Override
@@ -21,8 +21,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        tvOnCreate = (TextView) findViewById(R.id.textView);
-        lifeCycleActivities.add("onCreate executed");
+        //Initialize tvMainActivity variable
+        tvMainActivity = (TextView) findViewById(R.id.textView);
+
+        //Add event name to lifeCycleActivities array
+        lifeCycleActivities.add(getString(R.string.mainActivityOnCreate));
         lifeCycleActivities.add("\n");
     }
 
@@ -31,12 +34,17 @@ public class MainActivity extends AppCompatActivity {
     {
         super.onStart();
 
-        lifeCycleActivities.add("onStart executed");
+        //Add event name to lifeCycleActivities array
+        lifeCycleActivities.add(getString(R.string.mainActivityOnStart));
+
+        //loop to fetch lifeCycleActivities array
         String result = "";
         for (String state: lifeCycleActivities) {
             result += state;
-            tvOnCreate.setText(result);
+            tvMainActivity.setText(result);
         }
+
+        //clear lifeCycleActivities array
         lifeCycleActivities.clear();
 
     }

@@ -44,7 +44,7 @@ public class FirstFragment extends ListFragment {
         //bind the list view with array adapter
         setListAdapter(adapter);
 
-        //static toast object calls makeText method which takes context(getActivity), text, and duration arguments
+        //static toast class calls makeText method which takes context(getActivity), text, and duration arguments
         Toast.makeText(getActivity(), R.string.fragment1_onCreate, Toast.LENGTH_SHORT).show();
 
         return view;
@@ -79,7 +79,8 @@ public class FirstFragment extends ListFragment {
     public void onStart()
     {
         super.onStart();
-        //static toast object calls makeText method which takes context(getActivity), text, and duration arguments
+
+        //static toast class calls makeText method which takes context(getActivity), text, and duration arguments
         Toast.makeText(getActivity(), R.string.fragment1_onStart, Toast.LENGTH_SHORT).show();
     }
 }
